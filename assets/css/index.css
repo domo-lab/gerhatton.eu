@@ -10,7 +10,6 @@
  * - External Assets
  * - Variables
  * - Base
- * - <Category>
  */
 
 
@@ -19,6 +18,9 @@
 
 /* Normalize: CSS reset */
 @import url("https://unpkg.com/normalize.css@latest/normalize.css");
+
+/* Pico: CSS framework */
+@import url("https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css");
 
 
 /* Variables
@@ -33,9 +35,3 @@
 
 /* Base: basic defaults */
 @import url("base.css");
-
-
-/* <Category>
-   ========================================================================== */
-
-/* <File Name>: <File Content Description> */
