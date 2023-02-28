@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 'Base' is where basic defaults are defined.
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  font-family: var(--font-family);
+}
+
+svg,
+img,
+picture,
+audio,
+video,
+object {
+  height: auto;
+  max-width: 100%;
+}
+
+a,
+a:visited {
+  cursor: pointer;
+}
