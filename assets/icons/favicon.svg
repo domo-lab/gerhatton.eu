@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <g>
-    <rect fill="none" width="64" height="64"/>
-    <path d="M48,16V48H16V16H48m2-8H14a6,6,0,0,0-6,6V50a6,6,0,0,0,6,6H50a6,6,0,0,0,6-6V14a6,6,0,0,0-6-6Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.2" id="logo" x="0" y="0" viewBox="0 0 283.53 283.47" overflow="visible">
+  <g id="reticle">
+    <path id="square" d="M57.34,56.64v33.74v33.74h6.38h6.38V96.75V69.39h27.44h27.44v-6.38v-6.38H91.16H57.34z M214.59,158.11V186
+      v27.89h-27.81h-27.81v6.37v6.37h34.19h34.19v-34.26v-34.26h-6.38H214.59z M158.97,56.64v6.38v6.38h27.81h27.81v27.36v27.36h6.38
+      h6.38V90.38V56.64h-34.19H158.97z M70.09,213.89V186v-27.89h-6.38h-6.38v34.26v34.26h33.81h33.81v-6.37v-6.37H97.53H70.09z"/>
   </g>
 </svg>

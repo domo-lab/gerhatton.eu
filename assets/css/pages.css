@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* ==========================================================================
+   Pages
+   ========================================================================== */
+
+/**
+ * 'Pages' is where various pages are defined.
+ */
+
+
+/* Notice
+   ========================================================================== */
+
+.notice {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 1em;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.notice-logo {
+  max-width: 300px;
+  min-width: 100px;
+  margin: 0 auto;
+  padding: 0 0 var(--block-spacing-vertical);
+}
+
+.notice-title,
+.notice-subtitle {
+  color: #000;
+}
