@@ -7,8 +7,15 @@
  * 'Base' is where basic defaults are defined.
  */
 
+
+/* Document
+   ========================================================================== */
+
 html {
   box-sizing: border-box;
+  background-color: var(--blackcurrant-100);
+  background-image: url("../images/noise.png");
+  background-repeat: repeat;
 }
 
 *,
@@ -17,12 +24,29 @@ html {
   box-sizing: inherit;
 }
 
+
+/* Typography
+   ========================================================================== */
+
 body {
   font-weight: var(--font-weight);
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+
+/* Embedded Content
+   ========================================================================== */
 
 svg,
 img,
@@ -33,6 +57,10 @@ object {
   height: auto;
   max-width: 100%;
 }
+
+
+/* Accessibility & User Interaction
+   ========================================================================== */
 
 a,
 a:visited {

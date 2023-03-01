@@ -7,4 +7,12 @@
  * 'Variables' is where design tokens are defined.
  */
 
-:root {}
+:root {
+  /* Color */
+  --blackcurrant: hsl(304, 16%, 17%);
+  --blackcurrant-100: hsl(304, 15%, 95%);
+  --blackcurrant-300: hsl(304, 17%, 84%);
+  --blackcurrant-600: hsl(304, 18%, 9%);
+  /* Typography */
+  --font-family: Raleway;
+}
